@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Rejouice;
+  src: url(/Rejouice-Headline.ttf);
+}
+
+@font-face {
+  font-family: Techo;
+  src: url(/Techo.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Techo;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}

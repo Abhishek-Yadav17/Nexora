@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Puffer Jacket", "price": "$49.99", "img": "/item1.png", "desc": "A stylish and comfortable winter jacket designed to keep you warm." },
+  { "id": 2, "name": "Transparent Backpack", "price": "$59.99", "img": "/item2.png", "desc": "A durable and clear backpack perfect for daily use." },
+  { "id": 3, "name": "Cool Cap", "price": "$39.99", "img": "/item3.png", "desc": "A trendy cap that matches any outfit." }
+]

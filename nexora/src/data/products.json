@@ -1,0 +1,12 @@
+[
+  { "id": 1, "name": "Puffer Jacket", "price": "$49.99", "img": "/item1.png", "desc": "A stylish and comfortable winter jacket designed to keep you warm." },
+  { "id": 2, "name": "Transparent Backpack", "price": "$59.99", "img": "/item2.png", "desc": "A durable and clear backpack perfect for daily use." },
+  { "id": 3, "name": "Cool Cap", "price": "$39.99", "img": "/item3.png", "desc": "A trendy cap that matches any outfit." },
+  { "id": 4, "name": "Classic Hoodie", "price": "$69.99", "img": "/item4.png", "desc": "A cozy hoodie for everyday comfort." },
+  { "id": 5, "name": "Cotton Tshirt", "price": "$79.99", "img": "/item5.png", "desc": "Soft cotton T-shirt for casual wear." },
+  { "id": 6, "name": "Brown Bag", "price": "$89.99", "img": "/item6.png", "desc": "A stylish brown bag for work or travel." },
+  { "id": 7, "name": "Pink Shirt", "price": "$39.99", "img": "/item7.png", "desc": "Bright pink shirt to stand out in style." },
+  { "id": 8, "name": "Sneakers", "price": "$49.99", "img": "/item8.png", "desc": "Comfortable sneakers for daily wear and workouts." },
+  { "id": 9, "name": "Women Purse", "price": "$59.99", "img": "/item9.png", "desc": "A chic purse perfect for any occasion." },
+  { "id": 10, "name": "Aesthetic Shirt", "price": "$100.99", "img": "/item10.png", "desc": "A premium aesthetic shirt for a modern look." }
+]

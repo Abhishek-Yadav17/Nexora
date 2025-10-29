@@ -1,0 +1,143 @@
+.shop {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #DBE1D5;
+    padding: 6vw 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+
+    .shop-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2vw;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 4vw;
+        }
+
+        h1 {
+            font-size: 3vw;
+            font-weight: 600;
+
+            @media (max-width: 768px) {
+                font-size: 5vw;
+            }
+        }
+
+        .search-bar {
+            position: relative;
+            width: 25vw;
+
+            @media (max-width: 768px) {
+                width: 50%;
+            }
+
+            input {
+                width: 100%;
+                padding: 1vw 4vw 1vw 1vw;
+                border-radius: 50px;
+                border: 1px solid #555353;
+                background: transparent;
+                outline: none;
+                font-size: 1.1vw;
+                color: #313F3D;
+
+                @media (max-width: 768px) {
+                    font-size: 2vw;
+                    padding: 2vw;
+                }
+
+                &::placeholder {
+                    color: #555353;
+                }
+            }
+
+            i {
+                position: absolute;
+                right: 1vw;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 1.1vw;
+                color: #555353;
+            }
+        }
+    }
+
+    .shop-cards {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-self: center;
+        gap: 4vw;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            width: 100%;
+            gap: 10vw;
+        }
+
+        .shop-item {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5vw;
+            width: 30%;
+            transition: all ease 0.5s;
+            cursor: pointer;
+
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+
+            .shop-card {
+                border-radius: 10px;
+                overflow: hidden;
+                height: 28vw;
+                background: radial-gradient(circle, #B8C3B2 0%, #313F3D 100%);
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+                @media (max-width: 768px) {
+                    height: fit-content;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transform: scale(0.8);
+                    transition: all ease 0.5s;
+                }
+            }
+
+            .shop-info {
+                display: flex;
+                flex-direction: column;
+                gap: 0.5vw;
+
+                .name {
+                    font-size: 1.5vw;
+
+                    @media (max-width: 768px) {
+                        font-size: 5vw;
+                    }
+                }
+
+                .price {
+                    font-size: 1.2vw;
+                    color: #555353;
+
+                    @media (max-width: 768px) {
+                        font-size: 4vw;
+                    }
+                }
+            }
+
+            &:hover img {
+                transform: scale(1);
+            }
+        }
+    }
+}
