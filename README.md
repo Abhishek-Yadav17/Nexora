@@ -41,21 +41,14 @@ npm install
 # Start development server
 npm run dev
 
+```
 ### 2. Backend
 Open another terminal and follow these steps:
 
 ```bash
-# Navigate to backend folder
-cd backend
 
 # Install dependencies
 npm install
-```
-#Create a .env file in the backend folder with the following variables:
 
-##PORT=5000
-##MONGO_URI=<your_mongodb_connection_string>
-
-```bash
 # Start the backend server:
 node server.js
